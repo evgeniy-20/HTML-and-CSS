@@ -1,0 +1,131 @@
+.block-1 {
+    width: 500px;
+    border: 1px dotted rgb(135, 51, 191);
+}
+
+.block-2 {
+    height: 500px;
+    border: 1px dotted red;
+    margin: 30px;
+}
+
+.block-3 {
+    width: 500px;
+    border: 1px dotted rgb(135, 51, 191);
+}
+
+.block-4 {
+    width: 500px;
+    border: 1px dotted green;
+    margin: 30px;
+}
+
+.block-5 {
+    height: 500px;
+    border: 1px solid red;
+    margin: 30px;
+}
+
+.parants {
+    width: 200px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.child {
+    height: 100px;
+    margin: 50px 50px 100px 50px;
+    border: 1px solid green;
+}
+
+.parants_1 {
+    width: 200px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.child_1 {
+    height: 100px;
+    margin: 24px 50px 100px 10px;
+    border: 1px dotted blue;
+}
+
+.parants_2 {
+    width: 200px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.child_2 {
+    height: 100px;
+    margin: 50px 40px;
+    border: 1px dotted green;
+}
+
+.parants_3 {
+    width: 200px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.child_3 {
+    height: 100px;
+    margin: 100px 50px 30px;
+    border: 1px dotted orange;
+}
+
+.parants_4 {
+    width: 400px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.child_4 {
+    height: 100px;
+    margin: 30px 100px 50px;
+    border: 1px dotted green;
+}
+
+.block_6 {
+    width: 200px;
+    border: 1px solid red;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+.block_7 {
+    width: 500px;
+    border: 1px solid green;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.block_8 {
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+#elem1 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+#elem2 {
+	padding: 25px; /* задаем отступы */
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red; 
+}

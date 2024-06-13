@@ -1,0 +1,35 @@
+.square {
+    list-style-type: square;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.roman {
+	list-style-type: lower-roman;
+}
+
+.upper_roman {
+    list-style-type: upper-roman;
+}
+
+.lower_alpha {
+    list-style-type: lower-alpha;
+}
+
+.upper_alpha {
+    list-style-type: upper-alpha;
+}
+
+.lower_greek {
+    list-style-type: lower-greek;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}

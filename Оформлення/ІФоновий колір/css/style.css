@@ -1,0 +1,15 @@
+.block {
+    width: 300px;
+    height: 300px;
+    background-color: #7E89EB;
+}
+
+.block-1 {
+    width: 400px;
+    height: 300px;
+    background-color: #4DEE99;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
