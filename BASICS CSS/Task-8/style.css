@@ -1,14 +1,6 @@
-/* Встановіть таблиці ширину 500px, а висоту 300px. Зробіть осередки td жирними та по центру, а осередки th – нежирними. */
-table {
-    width: 500px;
-    height: 300px;
-}
+/* Скоротіть код, використовуючи властивість-скорочення font: */
 
-td {
-    font-weight: bold;
-    text-align: center;
-}
-
-th {
-    font-weight: normal;
+p {
+    width: 300px;
+    font: 30px/20px "Times New Roman";
 }

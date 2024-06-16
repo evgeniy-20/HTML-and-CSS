@@ -1,14 +1,36 @@
-/* Встановіть таблиці ширину 500px, а висоту 300px. Зробіть осередки td жирними та по центру, а осередки th – нежирними. */
-table {
+/* Пишемо стилі  */
+
+h1,
+h2,
+p {
     width: 500px;
-    height: 300px;
 }
 
-td {
-    font-weight: bold;
+h1,
+h2 {
     text-align: center;
 }
 
-th {
+h1 {
+    color: blue;
+    font-size: 40px;
+}
+
+h2 {
+    color: green;
     font-weight: normal;
+    font-size: 30px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    font: 16px/25px Arial;
+}
+
+ul {
+    width: 400px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
 }

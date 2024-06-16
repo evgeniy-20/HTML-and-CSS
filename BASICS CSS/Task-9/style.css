@@ -1,14 +1,26 @@
-/* Встановіть таблиці ширину 500px, а висоту 300px. Зробіть осередки td жирними та по центру, а осередки th – нежирними. */
-table {
-    width: 500px;
-    height: 300px;
+/* Повторіть приклад, наведений нижче: */
+
+.underLine {
+    text-decoration: underline;
 }
 
-td {
-    font-weight: bold;
-    text-align: center;
+/* Верхнє підкреслення тексту в CSS */
+
+.overLine {
+    text-decoration: overline;
+    color: red;
 }
 
-th {
-    font-weight: normal;
+/* Перекреслення тексту в CSS */
+
+.line-through {
+    color: green;
+    text-decoration: line-through;
+}
+
+/* Скасування ефектів для тексту в CSS */
+
+p a {
+    text-decoration: none;
+    color: red;
 }
