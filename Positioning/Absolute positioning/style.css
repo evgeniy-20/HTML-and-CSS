@@ -1,0 +1,135 @@
+/* Абсолютне позиціонування елементів у CSS */
+/* .block-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+
+.block-2 {
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.block-3 {
+    position: absolute;
+    top: 190px;
+    left: 190px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+}
+
+.block-4 {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+
+.block-5 {
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.block-6 {
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+} */
+
+/* .block-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+
+.block-2 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+}
+
+.block-3 {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+} */
+/*
+.block-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.block-2 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.block-3 {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+} */
+
+.elem1 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #FF8888;
+}
+
+.elem2 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #7E89EB;
+    position: relative;
+    top: -40px;
+    left: 40px;
+}
+
+.elem3 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #4DEE99;
+    position: relative;
+    top: -80px;
+    left: 120px;
+}
