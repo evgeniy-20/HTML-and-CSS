@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perant {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 1px solid red;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.child {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
