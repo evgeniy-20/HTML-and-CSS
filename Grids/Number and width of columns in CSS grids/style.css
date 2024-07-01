@@ -1,0 +1,12 @@
+.perant {
+    display: grid;
+    border: 2px solid #696989;
+    grid-template-columns: 100px 150px 200px;
+    padding: 10px;
+    width: 600px;
+}
+
+.perant>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perant {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    border: 1px solid red;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.child {
+    width: 120px;
+    border: 1px solid green;
+}
+
+.elem {
+    align-self: center;
+}
