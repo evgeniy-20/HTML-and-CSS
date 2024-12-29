@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'truenoexbd-webfont';
+    src: url('../fonts/truenoexbd-webfont.woff') format('woff'),
+        url('../fonts/truenoexbd-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'truenosbd-webfont';
+    src: url('../fonts/truenosbd-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'truenoultlt-webfont';
+    src: url('../fonts/truenoultlt-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.icon-mail {
+    font-family: 'iconfont';
+    font-style: normal;
+}
+
+.icon-mail::before {
+    content: "\e158";
+}
+
+/* default styles */
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'truenosbd-webfont', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 0 7px;
+}
+
+h1 {
+    margin: 0 0 45px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    transition: .3s ease-in-out color;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: '';
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    /*line-height: 100vh;*/
+}
+
+.main::after {
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    height: 100%;
+}
+
+h1 {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    vertical-align: middle;
+    padding: 0 5px 9px;
+    font-size: 72px;
+    line-height: 60px;
+}
+
+h1::after {
+    position: absolute;
+    content: '';
+    display: block;
+    background-image: linear-gradient(to right, rgba(250, 196, 0, 1) 0%, rgba(251, 186, 0, 1) 7%, rgba(252, 179, 0, 1) 9%, rgba(250, 176, 0, 1) 11%, rgba(253, 173, 2, 1) 12%, rgba(249, 171, 0, 1) 12%, rgba(251, 165, 2, 1) 15%, rgba(254, 162, 3, 1) 15%, rgba(250, 158, 0, 1) 17%, rgba(251, 153, 0, 1) 18%, rgba(252, 136, 1, 1) 24%, rgba(249, 135, 0, 1) 24%, rgba(251, 132, 2, 1) 26%, rgba(252, 130, 5, 1) 26%, rgba(249, 124, 6, 1) 28%, rgba(251, 113, 14, 1) 31%, rgba(250, 107, 15, 1) 32%, rgba(249, 105, 18, 1) 33%, rgba(250, 98, 23, 1) 34%, rgba(249, 90, 25, 1) 37%, rgba(250, 85, 31, 1) 38%, rgba(248, 83, 27, 1) 38%, rgba(249, 78, 34, 1) 39%, rgba(249, 76, 34, 1) 40%, rgba(250, 71, 38, 1) 41%, rgba(248, 69, 37, 1) 42%, rgba(249, 64, 44, 1) 43%, rgba(246, 64, 43, 1) 43%, rgba(248, 57, 47, 1) 44%, rgba(246, 58, 49, 1) 45%, rgba(245, 50, 54, 1) 46%, rgba(247, 47, 57, 1) 48%, rgba(246, 45, 61, 1) 48%, rgba(245, 42, 62, 1) 50%, rgba(244, 39, 69, 1) 51%, rgba(241, 35, 71, 1) 53%, rgba(237, 33, 86, 1) 58%, rgba(236, 33, 89, 1) 60%, rgba(232, 34, 95, 1) 62%, rgba(234, 31, 94, 1) 62%, rgba(229, 33, 97, 1) 63%, rgba(227, 32, 108, 1) 67%, rgba(222, 34, 108, 1) 68%, rgba(220, 37, 119, 1) 71%, rgba(212, 42, 128, 1) 75%, rgba(209, 44, 136, 1) 77%, rgba(205, 46, 139, 1) 79%, rgba(207, 48, 141, 1) 80%, rgba(203, 49, 147, 1) 81%, rgba(200, 50, 147, 1) 83%, rgba(199, 53, 154, 1) 84%, rgba(193, 58, 161, 1) 88%, rgba(190, 60, 168, 1) 89%, rgba(186, 63, 167, 1) 91%, rgba(186, 62, 172, 1) 93%, rgba(186, 63, 170, 1) 93%, rgba(187, 63, 175, 1) 94%, rgba(185, 63, 172, 1) 95%, rgba(184, 66, 178, 1) 96%, rgba(181, 67, 180, 1) 100%);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 strong {
+    color: #41efcc;
+    display: block;
+}
+
+.tex-holder {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    line-height: normal;
+    padding: 15px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 540px;
+}
+
+.tex-holder p {
+    text-transform: uppercase;
+}

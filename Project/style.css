@@ -1,0 +1,312 @@
+/* default styles */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 0 7px;
+}
+
+h1 {
+    margin: 0 0 45px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    transition: .3s ease-in-out color;
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.clearfix::after {
+    content: '';
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    box-shadow: 0 2px 15px 0 #d9caca;
+    cursor: pointer;
+    transition: .3s ease-in-out box-shadow;
+    font-size: inherit;
+    text-transform: capitalize;
+}
+
+.btn.btn-md {
+    min-width: 170px;
+}
+
+.btn.btn-sm {
+    min-width: 100px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.btn.btn-lg {
+    min-width: 250px;
+    font-size: 25px;
+    padding: 20px 25px;
+}
+
+.btn.btn-primary {
+    background-color: yellow;
+    box-shadow: 0 2px 15px 0 #c9ec91;
+
+}
+
+.btn.btn-primary:hover {
+    box-shadow: 0 2px 15px 0 #8ebb48;
+}
+
+.btn.btn-active {
+    background-color: greenyellow;
+    box-shadow: 0 2px 15px 0 #e0ee0d;
+}
+
+.btn.btn-active:hover {
+    box-shadow: 0 2px 15px 0 #969c42;
+}
+
+.btn.btn-error {
+    background-color: #ff0000;
+    box-shadow: 0 2px 15px 0 #ff0000;
+}
+
+.btn.btn-error:hover {
+    box-shadow: 0 5px 20px 0 #000;
+}
+
+/* end rest */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 0;
+    border-bottom: 2px solid #57ee57a3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .nav-list {
+    float: right;
+    overflow: hidden;
+    margin: 0 -15px;
+    padding-top: 12px;
+}
+
+.header .nav-list li {
+    float: left;
+    padding: 0 15px;
+}
+
+.header .nav-list a:hover {
+    color: #01E8BB;
+}
+
+/* end header */
+
+.main {
+    padding: 45px 0;
+}
+
+.heading-blog h1 {
+    text-transform: uppercase;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.row::after {
+    content: '';
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.col {
+    padding: 0 15px;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.img-holder {
+    text-align: center;
+}
+
+.lesson-block {
+    position: relative;
+    display: block;
+    padding: 15px;
+    margin: 0 0 60px;
+    box-shadow: 0 6px 10px 0 #d9caca;
+    transition: .3s ease-in-out box-shadow;
+}
+
+.lesson-block img {
+    transition: .3s ease-in-out opacity;
+}
+
+.lesson-block:hover {
+    box-shadow: 0 3px 17px 0 #777;
+}
+
+.lesson-block:hover img {
+    opacity: .7;
+}
+
+.lesson-block .img-holder {
+    height: 290px;
+}
+
+.lesson-title {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.price {
+    font-size: 20px;
+    color: #01E8BB;
+    float: right;
+}
+
+.hit-product::before {
+    position: absolute;
+    content: 'Хіт';
+    width: 100px;
+    font-size: 14px;
+    padding: 2px 5px;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 1px 5px 0 #d9caca;
+    top: 25px;
+    left: 0;
+    background-color: yellow;
+    z-index: 1;
+}
+
+.new-product::before {
+    position: absolute;
+    content: 'Новинка';
+    width: 100px;
+    font-size: 14px;
+    padding: 2px 5px;
+    text-align: center;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 1px 5px 0 #d9caca;
+    top: 25px;
+    left: 0;
+    background-color: yellowgreen;
+    z-index: 1;
+    word-break: break-all;
+}
+
+.start-product:after {
+    position: absolute;
+    content: 'Стар 1 ховтня';
+    font-size: 14px;
+    padding: 23px 5px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    top: -40px;
+    right: 15px;
+    background-color: #57ee57;
+    color: #fff;
+    box-shadow: 0 1px 5px 0 #d9caca;
+    z-index: 1;
+    text-align: center;
+}
+
+.place-product::after {
+    position: absolute;
+    content: 'Задишилось 3 місця';
+    font-size: 12px;
+    padding: 30px 10px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    top: -40px;
+    right: 15px;
+    background-color: #ff0000;
+    color: #fff;
+    box-shadow: 0 1px 5px 0 #d9caca;
+    z-index: 1;
+    text-align: center;
+}
+
+.text-holder {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto 20px;
+}
+
+.btn-list {
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+}
+
+.btn-list li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px 30px;
+}

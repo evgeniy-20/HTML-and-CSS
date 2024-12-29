@@ -1,0 +1,13 @@
+/* Зробіть усі h2 з класом header розміром 40px, а всі h3 з цим класом - розміром 30px. */
+
+.header {
+    color: red;
+}
+
+.header h2 {
+    font-size: 40px;
+}
+
+.header h3 {
+    font-size: 30px;
+}

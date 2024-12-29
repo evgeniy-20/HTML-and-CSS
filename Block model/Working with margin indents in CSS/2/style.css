@@ -1,0 +1,15 @@
+.parents {
+    width: 400px;
+    border: 1px dashed blue;
+}
+
+.child {
+    border: 1px dashed green;
+    margin: 25px;
+}
+
+.elem {
+    height: 200px;
+    margin: 25px;
+    border: 1px solid red;
+}

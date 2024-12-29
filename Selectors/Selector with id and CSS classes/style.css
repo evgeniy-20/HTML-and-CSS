@@ -1,0 +1,10 @@
+/* Стилізуйте блоки по id та за класом: */
+
+#block {
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+    font-size: 35px;
+}

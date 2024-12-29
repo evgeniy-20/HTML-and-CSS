@@ -1,0 +1,14 @@
+/*  Перший рядок */
+
+p {
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+p::first-line {
+    color: red;
+    font-size: 25px;
+
+}

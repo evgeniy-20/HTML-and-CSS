@@ -1,0 +1,9 @@
+.block {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    background-color: #4DEE99;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
