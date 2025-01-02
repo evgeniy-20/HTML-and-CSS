@@ -1,0 +1,25 @@
+.parents {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #4DEE99;
+    margin: 0 auto;
+}
+
+.elem1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.elem2 {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}

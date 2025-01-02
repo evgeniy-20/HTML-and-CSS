@@ -1,0 +1,40 @@
+.parents {
+    position: relative;
+    width: 200px;
+    height: 430px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.elem1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.elem2 {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.elem3 {
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
+    border: 1px solid black;
+}
