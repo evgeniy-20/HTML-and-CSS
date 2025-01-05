@@ -1,0 +1,26 @@
+.parents {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid green;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.child1 {
+    position: fixed;
+    left: 200px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.child2 {
+    position: fixed;
+    right: 200px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+}

@@ -1,0 +1,27 @@
+/* У наступному зразку зелений блок стоїть по центру екрана за допомогою margin, а червоні блоки позиціонуються відносно нього. Повторіть сторінку за наведеним зразком: */
+
+.parents {
+    position: relative;
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+}
+
+.child1 {
+    position: absolute;
+    border: 1px solid red;
+    top: 0;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+}
+
+.child2 {
+    position: absolute;
+    border: 1px solid red;
+    top: 0;
+    right: -50px;
+    width: 30px;
+    height: 30px;
+}

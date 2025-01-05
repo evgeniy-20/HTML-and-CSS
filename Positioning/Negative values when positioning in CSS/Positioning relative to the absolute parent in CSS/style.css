@@ -1,0 +1,26 @@
+/* Зробіть квадратний блок з абсолютним позиціюванням розміром у 400px. Усередині нього зробіть ще два блоки розміром у 50px. Розмістіть перший блок у верхньому правому кутку батька, а другий блок - у нижньому лівому кутку. */
+
+.parents {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid orange;
+}
+
+.child1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+}
+
+.child2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+}
