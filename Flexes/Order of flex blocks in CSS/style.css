@@ -1,0 +1,23 @@
+/* Самостоятельно опробуйте работу данного свойства для различных направлений оси. */
+
+.parents {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    border: 1px solid red;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.child {
+    width: 120px;
+    height: 60px;
+    border: 1px solid green;
+}
+
+.elem {
+    order: -1;
+    border: 1px solid red;
+}
