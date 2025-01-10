@@ -1,0 +1,15 @@
+/* Розмістіть блоки в три ряди. Нехай перший блок матиме розмір 100px, другий 150px, а третій 200px. */
+
+.parents {
+    display: grid;
+    grid-template-rows: 100px 150px 200px;
+    padding: 10px;
+    width: 600px;
+    height: 450px;
+    border: 3px solid #696989;
+}
+
+.parents>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

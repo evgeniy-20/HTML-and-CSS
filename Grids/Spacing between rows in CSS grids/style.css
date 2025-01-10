@@ -1,0 +1,15 @@
+/* Створіть таблицю, у якій відстань між стовпчиками становитиме 20%. */
+
+.parents {
+    display: grid;
+    row-gap: 25%;
+    padding: 10px;
+    border: 3px solid #696989;
+    width: 600px;
+    height: 400px;
+}
+
+.parents>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

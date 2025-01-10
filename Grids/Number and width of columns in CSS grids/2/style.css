@@ -1,0 +1,14 @@
+/* Розмістіть дочірні елементи у два стовпці шириною 200px. */
+
+.parents {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    padding: 10px;
+    border: 3px solid #696989;
+    width: 400px;
+}
+
+.parents>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

@@ -1,0 +1,14 @@
+/* Зробіть 2 стовпці розміром 100px, ще 3 стовпці розміром 200px, потім стовпець розміром 1fr, і потім 2 стовпці розміром 10%. */
+
+.parents {
+    display: grid;
+    grid-template-columns: repeat(2, 100px) repeat(3, 200px) 1fr 10% 10%;
+    padding: 10px;
+    border: 3px solid #696989;
+    width: 1200px;
+}
+
+.parents>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
