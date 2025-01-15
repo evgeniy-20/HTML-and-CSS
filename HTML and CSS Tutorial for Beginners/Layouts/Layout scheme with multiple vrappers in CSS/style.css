@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #008050;
+    color: #fff;
+}
+
+.wrapper {
+    margin-bottom: 30px;
+}
+
+.center {
+    width: 840px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 35px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.header p {
+    font-size: 21px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.services {
+    background-color: #fff;
+}
+
+.wrapper h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.wrapper li {
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 16px;
+    list-style-position: inside;
+}
+
+.contacts {
+    background-color: #C60304;
+    color: white;
+}
+
+.contacts p {
+    text-align: center;
+}
+
+.company {
+    background-color: #fff;
+}
+
+.company p {
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.footer {
+    padding-top: 100px;
+    background: #FF8040;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
