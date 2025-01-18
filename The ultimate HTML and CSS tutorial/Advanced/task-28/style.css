@@ -1,0 +1,8 @@
+/* Модифікуйте попередню задачу так, щоб текст, який вилазить по горизонталі, обрізався. */
+
+.elem {
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+}

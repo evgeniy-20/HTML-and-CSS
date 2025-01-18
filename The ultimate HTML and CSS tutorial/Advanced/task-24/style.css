@@ -1,0 +1,14 @@
+/* Модифікуйте попередню задачу так, щоб частини картинки, які вилазять, обрізалися по горизонталі, а по вертикалі з'являлася смуга прокрутки. */
+
+.elem {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}

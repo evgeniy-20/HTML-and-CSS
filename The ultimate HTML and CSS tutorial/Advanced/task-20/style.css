@@ -1,0 +1,13 @@
+/* Модифікуйте попередню задачу так, щоб при наведенні мишкою на див висота дива ставала достатньо великою, щоб у цей див помістився весь текст.. */
+
+.elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: auto;
+    transition: height 0.3s ease;
+}
+
+.elem {
+    height: auto;
+}

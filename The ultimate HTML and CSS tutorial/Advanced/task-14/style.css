@@ -1,0 +1,7 @@
+/* Напишіть код, який продемонструє різницю між значеннями pre, pre-wrap і pre-line */
+
+.elem {
+    width: 200px;
+    white-space: pre-line;
+    border: 1px solid black;
+}

@@ -1,0 +1,9 @@
+/* Модифікуйте попередню задачу так, щоб під час обрізання тексту йому в кінець додавалася три крапки. */
+
+.elem {
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

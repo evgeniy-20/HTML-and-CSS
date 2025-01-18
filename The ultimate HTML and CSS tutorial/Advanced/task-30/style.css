@@ -1,0 +1,14 @@
+/* Модифікуйте попередню задачу так, щоб при наведенні мишкою на див текст переставав вибудовуватися в одну лінію і див розширювався по висоті, вміщуючи весь текст. */
+
+.elem {
+    width: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
+}
+
+.elem:hover {
+    white-space: normal;
+}
