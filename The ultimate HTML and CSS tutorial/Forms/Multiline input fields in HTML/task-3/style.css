@@ -1,0 +1,9 @@
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial;
+}

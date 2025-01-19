@@ -1,0 +1,8 @@
+input::placeholder {
+    color: green;
+}
+
+input {
+    padding: 10px 2px;
+    border: 1px solid grey;
+}
