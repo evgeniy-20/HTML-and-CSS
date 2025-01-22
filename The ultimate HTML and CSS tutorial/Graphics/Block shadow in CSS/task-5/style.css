@@ -1,0 +1,9 @@
+/* Дано блок розміром 200 на 200. Додайте йому дві тіні - одну зверху, іншу знизу. */
+
+.block {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 0 -20px blue, 0 20px yellow;
+    margin-top: 20px;
+}

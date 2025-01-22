@@ -1,0 +1,7 @@
+/* Дано блок розміром 200 на 200. Додайте йому тінь червоного кольору, зсунуту вниз на 15px, вправо на 20px і розмиттям 5px.. */
+.block {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle closest-side, #333 10px, white 30px, white 40px, green 50px)
+}

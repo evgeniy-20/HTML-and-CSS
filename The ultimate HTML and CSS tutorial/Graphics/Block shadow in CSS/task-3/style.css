@@ -1,0 +1,8 @@
+/* Дано блок розміром 200 на 200. Додайте йому внутрішню тінь чорного кольору, без зрушень, але з розмиванням 5px. */
+.block {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: inset 0 0 5px black;
+    margin-top: 20px;
+}

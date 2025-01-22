@@ -1,0 +1,9 @@
+/* Дано блок розміром 200 на 200. Додайте йому тінь зеленого кольору, зсунуту вгору на 15px, вправо на 20px і без розмиття. */
+
+.block {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 20px -15px green;
+    margin-top: 20px;
+}

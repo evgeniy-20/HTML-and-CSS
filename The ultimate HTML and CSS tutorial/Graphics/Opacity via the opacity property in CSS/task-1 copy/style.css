@@ -1,0 +1,23 @@
+/* Нехай у вас є деяка фонова картинка. Розмістіть поверх неї два блоки з текстом, межею і фоном. Продемонструйте на цих блоках різницю між напівпрозорістю через opacity і через rgba. */
+
+#parent {
+    background-image: url("./images/завантаження.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    padding: 30px;
+}
+
+#elem {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+
+    border: 20px solid red;
+    background: black;
+    color: red;
+
+    opacity: 0.7;
+}
