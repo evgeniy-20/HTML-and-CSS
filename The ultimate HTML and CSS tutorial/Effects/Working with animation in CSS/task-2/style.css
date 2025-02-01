@@ -1,0 +1,18 @@
+@keyframes changeColor {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.elem {
+    animation-name: changeColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}

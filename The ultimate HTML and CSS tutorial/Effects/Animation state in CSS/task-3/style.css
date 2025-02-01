@@ -1,0 +1,56 @@
+@keyframes bouncing {
+    0% {
+        bottom: 200px;
+        left: 0;
+        animation-timing-function: ease-in;
+    }
+
+    40%,
+    70%,
+    90% {
+        animation-timing-function: ease-out;
+        bottom: 0;
+    }
+
+    55% {
+        bottom: 50px;
+        animation-timing-function: ease-in;
+    }
+
+    80% {
+        bottom: 25px;
+        animation-timing-function: ease-in;
+    }
+
+    95% {
+        bottom: 10px;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        left: 110px;
+        bottom: 0;
+        animation-timing-function: ease-out;
+    }
+
+}
+
+.wrapper {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.ball {
+    animation: bouncing 5s infinite;
+    animation-play-state: paused;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 100%;
+
+}

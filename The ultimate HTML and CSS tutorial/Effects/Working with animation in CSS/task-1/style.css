@@ -1,0 +1,19 @@
+@keyframes move {
+    from {
+        margin-left: 0;
+    }
+
+    to {
+        margin-left: 400px;
+    }
+}
+
+.elem {
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}

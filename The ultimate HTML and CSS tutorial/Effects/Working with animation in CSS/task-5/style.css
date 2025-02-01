@@ -1,0 +1,20 @@
+@keyframes move {
+    from {
+        margin-left: 0;
+    }
+
+    to {
+        margin-left: 200px;
+    }
+
+}
+
+.elem {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}

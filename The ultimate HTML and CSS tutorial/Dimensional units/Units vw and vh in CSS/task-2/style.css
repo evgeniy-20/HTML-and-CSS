@@ -1,0 +1,9 @@
+/* Дан див. Встановіть ширину та висоту 70%ширини області перегляду. */
+
+
+div {
+    width: 70vw;
+    height: 70vh;
+    margin-top: 30vh;
+    border: 1px solid black;
+}
