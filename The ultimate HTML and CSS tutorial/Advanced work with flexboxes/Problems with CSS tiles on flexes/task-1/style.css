@@ -1,0 +1,19 @@
+/* Дано 12 елементів. Зробіть із них плиточку по 4 елементи в ряд із шириною кожного елемента в 100px і відстанню між ними в 20px. */
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 440px;
+    height: 400px;
+    border: 1px solid red;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+}

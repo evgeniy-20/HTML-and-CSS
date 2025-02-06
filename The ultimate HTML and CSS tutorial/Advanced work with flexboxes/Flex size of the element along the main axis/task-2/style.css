@@ -1,0 +1,14 @@
+/* Якщо вісь горизонтальна і блоку задано властивість flex-basis і одночасно властивість width, то flex-basis матиме пріоритет. Перевірте це. */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.elems {
+    flex-basis: 100px;
+    border: 1px solid green;
+}

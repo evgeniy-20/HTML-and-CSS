@@ -1,0 +1,14 @@
+/* Зробіть 5 флекс-блоки. Задайте їм ширину вздовж головної осі 100px. Подивіться на поведінку блоків уздовж різних осей. */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.elems {
+    flex-basis: 100px;
+    border: 1px solid green;
+}

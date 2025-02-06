@@ -1,0 +1,21 @@
+/* Задайте блокам ширину у відсотках так, щоб у плитці стало чотири блоки в ряд, а між блоками була відстань у 30px. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 902px;
+    margin: 50px auto;
+    border: 1px solid red;
+}
+
+.child {
+    width: calc((900px - 90px) / 4);
+    height: 100px;
+    border: 1px solid green;
+}

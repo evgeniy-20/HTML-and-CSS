@@ -1,0 +1,20 @@
+/* Дано 12 елементів. Зробіть із них плиточку по 3 елементи в ряд із шириною кожного елемента в 150px і відстанню між ними в 10px.*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 472px;
+    border: 1px solid red;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    border: 1px solid green;
+}

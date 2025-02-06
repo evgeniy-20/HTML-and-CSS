@@ -1,0 +1,21 @@
+/* Зробіть плиточку по три елементи в ряд з відстанню між елементами в 20px. */
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 340px;
+    border: 1px solid red;
+}
+
+.child {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+}
+
+.child:nth-child(3n) {
+    margin-right: 0;
+}

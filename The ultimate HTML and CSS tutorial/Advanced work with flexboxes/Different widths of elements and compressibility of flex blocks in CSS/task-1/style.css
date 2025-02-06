@@ -1,0 +1,31 @@
+** {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    width: 900px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.child {
+    height: 50px;
+    border: 1px solid green;
+}
+
+.elem1 {
+    width: 360px;
+}
+
+.elem2 {
+    width: 180px;
+}
+
+.elem3 {
+    width: 180px;
+}
+
+.elem4 {
+    width: 180px;
+}

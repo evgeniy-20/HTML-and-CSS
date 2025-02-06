@@ -1,0 +1,20 @@
+/* Зробіть плиточку по два елементи в ряд з відстанню між елементами в 20px. */
+
+.parent {
+    width: 220px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elem {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+
+.elem:nth-child(2n) {
+    margin-right: 0;
+}

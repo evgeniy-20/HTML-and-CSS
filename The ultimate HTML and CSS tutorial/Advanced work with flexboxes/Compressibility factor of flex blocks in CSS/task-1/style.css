@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+.child {
+    height: 50px;
+    border: 1px solid green;
+}
+
+
+.elems1 {
+    width: 175px;
+    flex-grow: 1;
+}
+
+.elems2 {
+    width: 175px;
+    flex-grow: 1;
+}
+
+.elems3 {
+    width: 175px;
+    flex-grow: 1;
+}
+
+.elems4 {
+    width: 175px;
+    flex-grow: 1;
+}
