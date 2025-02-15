@@ -1,0 +1,15 @@
+/* Розмістіть дочірні елементи у два стовпці: перший шириною 200px, а другий нехай займе місце, що залишилося. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid #696989;
+    width: 500px;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

@@ -1,0 +1,14 @@
+/* Нехай у вашому гриді три стовпці. Зробіть так, щоб третій стовпець був у 1.5 раза більшим за перший і другий. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    padding: 10px;
+    border: 1px solid #696989;
+    width: 300px;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

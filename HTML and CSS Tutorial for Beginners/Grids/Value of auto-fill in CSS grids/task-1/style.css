@@ -1,0 +1,15 @@
+/* Встановіть ширину стовпця в 200px. Змініть ширину батька і подивіться, як змінюється кількість стовпчиків. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid #696989;
+    width: 800px;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

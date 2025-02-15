@@ -1,0 +1,16 @@
+/* Нехай у вашому гриді три ряди. Зробіть так, щоб вони мали однакову ширину.*/
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid #696989;
+    width: 600px;
+    height: 200px;
+}
+
+.grid-container>div {
+    border: 1px solid #696989;
+    padding: 10px;
+}

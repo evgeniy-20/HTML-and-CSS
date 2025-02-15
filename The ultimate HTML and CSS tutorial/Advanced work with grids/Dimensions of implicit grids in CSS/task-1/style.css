@@ -1,0 +1,38 @@
+/* Нехай у вашій сітці 9 блоків. Розмістіть частину блоків у явній сітці, а частину блоків у неявній. Задайте розміри блокам у неявній частині. */
+
+.parent {
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-auto-rows: 100px;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    border: 1px solid #696989;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.parent>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+#child1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+#child2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+#child3 {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+}
+
+#child4 {
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+}

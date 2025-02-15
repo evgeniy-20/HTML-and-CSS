@@ -1,0 +1,15 @@
+/* Зробіть 4 стовпці розміром 100px, а ще 3 стовпці розміром 2fr. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px) repeat(3, 2fr);
+    padding: 10px;
+    border: 3px solid #696989;
+    margin: 20px auto;
+    width: 600px;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

@@ -1,0 +1,15 @@
+/* Нехай у вашому гриді чотири стовпці. Зробіть так, щоб перший і останній стовпці займали 100px, а інші стовпці ділили місце, що залишилося, так, щоб третій стовпець був у 1.5 раза більшим за другий. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 1fr 1.5fr 100px;
+    padding: 10px;
+    border: 1px solid #696989;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

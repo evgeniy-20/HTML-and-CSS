@@ -1,0 +1,14 @@
+/* Нехай у вашому гриді три стовпці. Зробіть так, щоб вони мали однакову ширину. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 200px;
+    padding: 10px;
+    border: 3px solid #696989;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}

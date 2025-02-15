@@ -1,0 +1,13 @@
+/* Створи grid з 2 рядків і 2 колонок, де всі елементи мають рівний розмір 100px × 100px. */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 150px 200px;
+    padding: 10px;
+    border: 1px solid #696989;
+    width: 450px;
+}
+
+.grid-item {
+    border: 1px solid #696989;
+    padding: 10px;
+}

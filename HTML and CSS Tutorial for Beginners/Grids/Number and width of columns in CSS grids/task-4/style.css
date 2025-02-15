@@ -1,0 +1,14 @@
+/* Розмістіть дочірні елементи в три стовпці: перший шириною 100px, другий 150px, а третій 200px. */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 150px 200px;
+    width: 450px;
+    padding: 10px;
+    border: 3px solid #696989;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
