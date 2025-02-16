@@ -1,0 +1,52 @@
+/* Створіть у першому і третьому елементах по вкладеному гриду з трьома дочірніми елементами. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+    border: 3px solid #696989;
+    width: 600px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.grid-container>div {
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+.elem1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 6px;
+    border: 1px solid #696989;
+}
+
+.elem1>div {
+    gap: 5px;
+    padding: 6px;
+    border: 1px solid #696989;
+}
+
+.elem3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 6px;
+    border: 1px solid #696989;
+}
+
+.elem3>div {
+    gap: 5px;
+    padding: 6px;
+    border: 1px solid #696989;
+}

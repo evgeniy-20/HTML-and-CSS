@@ -1,13 +1,14 @@
-#parent {
+.grid-container {
+    width: 600px;
+    border: 3px solid #696989;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    border: 2px solid #696989;
+    gap: 10px;
     padding: 10px;
-    width: 400px;
-    height: 400px;
+    height: 600px;
 }
 
-#parent>div {
+.grid-container>div {
     padding: 10px;
     border: 1px solid #696989;
 }

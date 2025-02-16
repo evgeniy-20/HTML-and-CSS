@@ -1,0 +1,33 @@
+/* Змініть попередню задачу, щоб вирівнювання четвертого і п'ятого елементів відбувалося по кінцю і початку вертикальної осі відповідно. */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid #696989;
+    width: 600px;
+    height: 600px;
+}
+
+.grid-container>div {
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #696989;
+}
+
+.elem4 {
+    align-self: start;
+}
+
+.elem5 {
+    align-self: end;
+}
